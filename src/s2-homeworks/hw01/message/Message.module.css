@@ -1,31 +1,64 @@
+
 .message {
+    display: flex;
+    justify-content: flex-end;
 
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
-
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 65px;
+    height: 65px;
 }
 
 .text {
+    box-shadow: 1px -1px 1px gray;
+    position: relative;
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px 25px 0px 25px;
+    background: dodgerblue;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
 .text:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top right, transparent 49%, dodgerblue 51%) no-repeat right bottom;
 
 }
 
 .name {
-
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .messageText {
-
+    font-size: 13px;
 }
 
 .time {
+    margin-right: 20px;
+    margin-left: -45px;
+    margin-bottom:-6px;
+    font-weight:bold;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column-reverse;
+    justify-content:flex-start;
 
 }
