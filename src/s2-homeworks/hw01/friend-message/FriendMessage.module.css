@@ -8,6 +8,7 @@
 .friendImageAndText {
     display: flex;
     flex-direction: row;
+    margin-left: 20px;
 }
 
 .friendImageAndText img {
@@ -51,7 +52,7 @@
 .friendTime {
     margin-top:-5px;
     font-weight:bold;
-    margin-left: 17px;
+    margin-left: 38px;
     font-size:12px;
     display: flex;
     flex-direction: column-reverse;

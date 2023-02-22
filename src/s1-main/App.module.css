@@ -7,5 +7,9 @@
 }
 
 .hwTitle {
-
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
