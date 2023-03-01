@@ -1,19 +1,37 @@
 .button {
+    height :30px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
 }
 
 .disabled {
+    color: lightslategray;
+    background-color: #869fbb;
+    border: none;
+
 }
 
 .secondary {
+    background-color: whitesmoke;
+    color: dodgerblue;
+    border-color: dodgerblue;
 }
 
 .default {
+    border: none;
+    background-color: dodgerblue;
+    color: whitesmoke;
 }
 
 .red {
+    border: none;
+    background-color: red;
 }
 
 .default:hover {
+    content: "При наведении";
 }
 
 .red:hover {
