@@ -1,11 +1,18 @@
 .spanBlock {
+    align-items: center;
+    display: flex;
 }
 
 .span {
+    color: dodgerblue;
+    margin-left: 10px;
+    align-items: center;
 }
 
 .input {
+    color: dodgerblue;
 }
 
 .pen {
+    margin-right: 5px;
 }
