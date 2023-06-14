@@ -2,7 +2,6 @@
 .message {
     display: flex;
     justify-content: flex-end;
-
 }
 
 .imageAndText {
@@ -29,7 +28,6 @@
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 .text:after {
@@ -41,7 +39,6 @@
     width: 30px;
     height: 30px;
     background: radial-gradient(60px at top right, transparent 49%, dodgerblue 51%) no-repeat right bottom;
-
 }
 
 .name {

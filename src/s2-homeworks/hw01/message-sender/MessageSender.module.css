@@ -8,10 +8,10 @@ textarea {
     margin-left: 80px;
     width: 80%;
     border-radius: 20px;
-    height: 40px;
     resize: none;
-    margin-top: 50px;
     margin-top: 120px;
+    margin-bottom: 50px;
+    height: 40px;
 }
 
 .button {
