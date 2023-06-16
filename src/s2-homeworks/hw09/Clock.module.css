@@ -1,14 +1,22 @@
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
 .clock {
+    margin-bottom: 120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .watch {
+    font-size: 18px;
 }
 
 .watch strong {
 }
 
 .more {
+    color: gray;
 }
