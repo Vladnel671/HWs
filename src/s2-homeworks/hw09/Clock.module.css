@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
+    width: 100px;
 }
 
 .clock {
@@ -12,6 +13,7 @@
 
 .watch {
     font-size: 18px;
+    width: 140px;
 }
 
 .watch strong {

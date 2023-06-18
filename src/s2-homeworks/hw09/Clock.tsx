@@ -12,14 +12,12 @@ function Clock() {
     const tick = () => {
         setDate(new Date());
     };
-
     const start = () => {
         if (timerId === undefined) {
-            const id = setInterval(tick, 1000) as NodeJS.Timer;
-            setTimerId(id);
+            const intervalId = setInterval(tick, 1000);
+            setTimerId(intervalId as unknown as number);
         }
     };
-
     const stop = () => {
         if (timerId !== undefined) {
             clearInterval(timerId);
